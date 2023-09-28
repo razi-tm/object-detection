@@ -1,7 +1,7 @@
 import torch
 
 # Model
-model = torch.hub.load('ultralytics/yolov5', 'yolov5n', pretrained=True)
+model = torch.hub.load('ultralytics/yolov5', 'yolov5n6', pretrained=True)
                                         #yolov5x  yolov5x6  ... 
 # Images
 imgs = [r"C:\Datasets\pics\Polar-bears-ice-floe-Norway.webp",
